@@ -43,7 +43,7 @@ $(function () {
     $(this).find('textarea').val(description);
   });
   // TODO: Add code to display the current date in the header of the page.
-  const currentDate = dayjs().format("dddd, MMMM D");
+  const currentDate = dayjs().format("dddd, MMMM D, h:mm A");
 
   const header = document.querySelector("header");
   const dateDisplay = document.createElement("h2");
